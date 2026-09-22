@@ -88,4 +88,4 @@ dados <- Reduce(rbind, dados)
 
   dados
 
-openxlsx::write.xlsx(dados, "resultado_extracao.xlsx")
+openxlsx::write.xlsx(dados, "./Tarefas/resultado_extracao.xlsx")
